@@ -1,0 +1,30 @@
+{
+  "name": "AnalyticsTheme",
+  "description": "Bring Google Analytics Colors to Matomo",
+  "version": "0.1.0",
+  "theme": true,
+  "require": {
+    "piwik": ">=3.7.0,<4.0.0-b1"
+  },
+  "stylesheet": "stylesheets/theme.less",
+  "homepage": "https://ronan-hello.fr",
+  "license": "GPL v3+",
+  "keywords": [
+    "theme",
+    "google",
+    "analytics"
+  ],
+  "support": {
+    "email": "contact@ronan-hello.fr",
+    "issues": "",
+    "forum": "https://forum.matomo.org",
+    "source": ""
+  },
+  "authors": [
+    {
+      "name": "Ronan HELLO",
+      "email": "contact@ronan-hello.fr",
+      "homepage": "https://ronan-hello.fr"
+    }
+  ]
+}

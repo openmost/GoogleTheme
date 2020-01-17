@@ -1,2 +1,3 @@
-# matomo-theme-google-analytics
-A Google Analytics theme for Matomo
+# Matomo: Google Analytics Theme
+
+## Description
