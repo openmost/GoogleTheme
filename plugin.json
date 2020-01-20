@@ -1,7 +1,7 @@
 {
     "name": "Google Analytics Theme",
     "description": "A sublime Google Analytics theme for Matomo",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "theme": true,
     "require": {
         "piwik": ">=3.13.1-stable,<4.0.0-b1"
@@ -10,21 +10,17 @@
     "javascript": "javascripts\/theme.js",
     "homepage": "https://lazuli.agency",
     "license": "GPL v3+",
-    "keywords": ["Google Analytics", "Google", "Analytics", "Universal Analytics"],
+    "keywords": ["Google Analytics", "Google", "Analytics", "Universal Analytics", "modern"],
     "support": {
         "email": "contact@ronan-hello.fr",
-        "issues": "",
+        "issues": "https://lazuli.agency",
         "forum": "https://lazuli.agency",
-        "irc": "",
-        "source": "https://lazuli.agency",
-        "docs": "https://lazuli.agency",
-        "wiki": "https://lazuli.agency",
-        "rss": ""
+        "source": "https://lazuli.agency"
     },
     "authors": [
         {
             "name": "Ronan HELLO",
-            "email": "https://ronan-hello.fr",
+            "email": "contact@ronan-hello.fr",
             "homepage": "https://ronan-hello.fr"
         }
     ]
