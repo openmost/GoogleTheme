@@ -1,31 +1,31 @@
 {
     "name": "Google Analytics Theme",
-    "description": "Matomo Platform showcase: example of how to create a simple Theme.",
-    "version": "0.1.0",
+    "description": "A sublime Google Analytics theme for Matomo",
+    "version": "0.1.1",
     "theme": true,
     "require": {
         "piwik": ">=3.13.1-stable,<4.0.0-b1"
     },
     "stylesheet": "stylesheets\/theme.less",
     "javascript": "javascripts\/theme.js",
-    "homepage": "",
+    "homepage": "https://lazuli.agency",
     "license": "GPL v3+",
-    "keywords": [],
+    "keywords": ["Google Analytics", "Google", "Analytics", "Universal Analytics"],
     "support": {
-        "email": "",
+        "email": "contact@ronan-hello.fr",
         "issues": "",
-        "forum": "",
+        "forum": "https://lazuli.agency",
         "irc": "",
-        "source": "",
-        "docs": "",
-        "wiki": "",
+        "source": "https://lazuli.agency",
+        "docs": "https://lazuli.agency",
+        "wiki": "https://lazuli.agency",
         "rss": ""
     },
     "authors": [
         {
-            "name": "",
-            "email": "",
-            "homepage": ""
+            "name": "Ronan HELLO",
+            "email": "https://ronan-hello.fr",
+            "homepage": "https://ronan-hello.fr"
         }
     ]
 }
