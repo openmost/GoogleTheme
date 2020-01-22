@@ -1,7 +1,7 @@
 {
     "name": "GoogleTheme",
     "description": "A sublime Google Analytics theme for Matomo",
-    "version": "0.1.11",
+    "version": "1.0.0",
     "theme": true,
     "require": {
         "piwik": ">=3.13.1-stable,<4.0.0-b1"
@@ -11,12 +11,11 @@
     "homepage": "https://lazuli.agency",
     "license": "GPL v3+",
     "keywords": [
-        "Modern", "Google"
+        "Google Analytics", "Google", "Modern", "GA"
     ],
     "support": {
         "email": "contact@ronan-hello.fr",
         "issues": "https://lazuli.agency",
-        "forum": "https://lazuli.agency",
         "source": "https://lazuli.agency"
     },
     "authors": [
