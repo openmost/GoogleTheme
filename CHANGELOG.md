@@ -1,3 +1,6 @@
+## v1.0.5
+- Updating screenshots labels
+
 ## v1.0.4
 - Updating GitHub default repo
 
