@@ -1,3 +1,6 @@
+## v1.0.4
+- Updating GitHub default repo
+
 ## v1.0.2
 - Fix overflow hidden property on cards cause problems with dropdown
 
