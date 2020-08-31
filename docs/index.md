@@ -7,7 +7,7 @@ If you want to contribute, please download the folder and continue in this direc
 
 Consider this is my first Matomo theme, be compliant and please tell me how to make it better if you see any errors.
 
-### Overrided componants
+### Overrided components
 - Page card style
 - Dashboard widgets
 - Header
