@@ -1,3 +1,9 @@
+# Changelog
+
+## v1.1.0
+- Support Matomo 4.x
+- Fix CSS padding for cards and tables
+
 ## v1.0.5
 - Updating screenshots labels
 

@@ -47,9 +47,13 @@
     border-radius: 8px;
     overflow: hidden;
 
-    .dataTable, .card {
+    .dataTable:not(table), .card {
       margin-top: -15px;
       border: none !important;
+    }
+
+    .dataTable thead th {
+
     }
   }
 }
