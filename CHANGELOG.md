@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.1
+- Fix help icon in lateral menu
+
 ## v1.2
 - Change Font
 - Updating lateral menu UI
