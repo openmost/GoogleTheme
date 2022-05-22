@@ -1,37 +1,66 @@
-#secondNavBar {
+#root {
 
-  ul {
-    & > li > ul > li.active > .item {
-      background-color: #e8f0fe !important;
-    }
+  #secondNavBar {
+    background-color: transparent;
 
-    li {
+    .navbar {
+      font-size: 0.875rem;
+      font-weight: 500;
 
-      &.active > a {
-        background-color: #e8eaed !important;
+      &.collapsible {
+        box-shadow: none;
+
+        .collapsible-header {
+          background-color: transparent;
+        }
       }
 
-      a {
-        border-radius: 0 50em 50em 0;
-        font-weight: 500;
-        font-size: 14px;
-        //letter-spacing: .25px;
-        color: rgba(0, 0, 0, 0.54);
-        padding: 9px 21px 10px 19px !important;
+      .menuTab {
 
-        &:focus {
-          outline: none !important;
+        &.active > .item {
+          color: #5f6368;
+          background-color: #e8eaed;
         }
 
-        &:hover {
-          background-color: #dadce1 !important;
+        &:not(.active):hover > .item {
+          background-color: #dadce0;
+          color: #3c4043;
           transition: .2s ease all;
+        }
+
+        & > .item {
+          color: #5f6368;
+          transition: .2s ease all;
+          border-bottom-right-radius: 25px;
+          border-top-right-radius: 25px;
+          padding: 10px 21px 10px 19px !important;
+        }
+
+        ul {
+
+          & > li {
+
+            .item {
+              border-bottom-right-radius: 25px;
+              border-top-right-radius: 25px;
+            }
+
+            &.active .item {
+              color: @theme-color-brand;
+              background-color: #e8f0fe;
+            }
+
+            &:not(.active):hover .item {
+                background-color: #dadce0;
+                color: #3c4043;
+            }
+
+            .item-help-icon {
+
+            }
+          }
         }
       }
     }
   }
-}
-
-#root #secondNavBar .navbar > li > ul li .item {
-  padding-left: 65px !important;
 }
