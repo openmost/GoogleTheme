@@ -2,6 +2,7 @@
   background-color: transparent;
   box-shadow: none;
   border: none !important;
+  margin-bottom: 36px;
 
   &:hover {
     box-shadow: none;
@@ -28,8 +29,9 @@
     }
 
     .widgetName {
-      padding: 0 0 1.5rem 0 !important;
-      font-weight: 400;
+      padding: 0 !important;
+      margin-bottom: 12px;
+      font-weight: 500;
       font-size: 1.125rem;
     }
   }
@@ -39,10 +41,20 @@
     box-shadow: none;
     border: 1px solid #dadce0;
     border-radius: @theme-widget-border-radius;
-    overflow: hidden;
 
     .widgetBody {
       padding-top: 12px;
+    }
+
+    .card {
+      border: none;
+      border-radius: @theme-widget-border-radius;
+      overflow: hidden;
+    }
+
+    .dataTable {
+      border-radius: @theme-widget-border-radius;
+      overflow: hidden;
     }
 
     .jqplot-graph {

@@ -1,7 +1,7 @@
 ## Documentation
 
 This theme use LESS to override current CSS. All files and assets are in the "stylesheets" folder at the root of the theme.
-To make it more readable, all differents parts are splitted in the "component" folder.
+To make it more readable, all different parts are organized in the "component" folder.
 
 If you want to contribute, please download the folder and continue in this direction using small and maintainable components. 
 

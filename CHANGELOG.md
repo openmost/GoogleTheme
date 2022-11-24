@@ -1,5 +1,8 @@
 # Changelog
 
+##v1.2.2
+- Fix Widget content overflow
+
 ## v1.2.1
 - Fix help icon in lateral menu
 
