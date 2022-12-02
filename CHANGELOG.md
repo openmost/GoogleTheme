@@ -1,5 +1,8 @@
 # Changelog
 
+##v1.2.4
+- Fix tags confusion
+
 ##v1.2.3
 - Fix Widget .dataTable content overflow
 
