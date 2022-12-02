@@ -1,5 +1,8 @@
 # Changelog
 
+##v1.2.3
+- Fix Widget .dataTable content overflow
+
 ##v1.2.2
 - Fix Widget content overflow
 
