@@ -1,5 +1,9 @@
 # Changelog
 
+##v1.2.5
+- Fix Font weight on mac
+- Fix KPI Widgets plugins padding
+
 ##v1.2.4
 - Fix tags confusion
 
