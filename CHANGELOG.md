@@ -1,9 +1,11 @@
 # Changelog
 
+## v5.0.1
+- Update screenshots
+
 ## v5.0.0
 - Compatibility to Matomo 5.x
 - Starting to use semver for versioning
-- Update screenshots
 
 ## v1.2.5
 - Fix Font weight on mac
