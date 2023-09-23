@@ -1,5 +1,8 @@
 # Changelog
 
+##v1.2.6
+- Fix Font ligatures with Google font
+
 ##v1.2.5
 - Fix Font weight on mac
 - Fix KPI Widgets plugins padding
