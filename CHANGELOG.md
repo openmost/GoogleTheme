@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.9
+- Update Screenshots
+
 ## v1.2.8
 - Fix font ligatures
 
