@@ -1,16 +1,19 @@
 # Changelog
 
-##v1.2.5
+## v1.2.6
+- Fix font ligatures
+
+## v1.2.5
 - Fix Font weight on mac
 - Fix KPI Widgets plugins padding
 
-##v1.2.4
+## v1.2.4
 - Fix tags confusion
 
-##v1.2.3
+## v1.2.3
 - Fix Widget .dataTable content overflow
 
-##v1.2.2
+## v1.2.2
 - Fix Widget content overflow
 
 ## v1.2.1
