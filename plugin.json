@@ -1,7 +1,7 @@
 {
     "name": "GoogleTheme",
     "description": "A sublime Google Analytics theme for Matomo",
-    "version": "5.0.8",
+    "version": "5.0.9",
     "theme": true,
     "require": {
         "matomo": ">=5.0.0-b1,<6.0.0-b1"

@@ -1,5 +1,8 @@
 # Changelog
 
+## v5.0.9
+- Update Logo
+
 ## v5.0.8
 - Support Matomo 5.x
 
