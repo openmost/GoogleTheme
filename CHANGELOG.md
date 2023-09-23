@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.6
+## v1.2.8
 - Fix font ligatures
 
 ## v1.2.5
