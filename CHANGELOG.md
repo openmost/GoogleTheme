@@ -1,47 +1,64 @@
-# Changelog
+## Changelog
 
-## v1.2.9
+### v1.2.11
+
+- Update plugin.json
+
+### v1.2.9
+
 - Update Screenshots
 
-## v1.2.8
+### v1.2.8
+
 - Fix font ligatures
 
-## v1.2.5
+### v1.2.5
+
 - Fix Font weight on mac
 - Fix KPI Widgets plugins padding
 
-## v1.2.4
+### v1.2.4
+
 - Fix tags confusion
 
-## v1.2.3
+### v1.2.3
+
 - Fix Widget .dataTable content overflow
 
-## v1.2.2
+### v1.2.2
+
 - Fix Widget content overflow
 
-## v1.2.1
+### v1.2.1
+
 - Fix help icon in lateral menu
 
-## v1.2
+### v1.2
+
 - Change Font
 - Updating lateral menu UI
 - Updating cards UI
 - Updating widgets UI
 
-## v1.1.0
+### v1.1.0
+
 - Support Matomo 4.x
 - Fix CSS padding for cards and tables
 
-## v1.0.5
+### v1.0.5
+
 - Updating screenshots labels
 
-## v1.0.4
+### v1.0.4
+
 - Updating GitHub default repo
 
-## v1.0.2
+### v1.0.2
+
 - Fix overflow hidden property on cards cause problems with dropdown
 
-## V1.0.0
+### V1.0.0
+
 - Write documentation, description and FAQ.
 - Change the style of the search bar (QuickAccess)
 - Change the style of the small buttons at the top of the dashboard.
