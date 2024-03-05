@@ -1,5 +1,9 @@
 ## Changelog
 
+### v1.2.12
+
+- Update documentation URL
+
 ### v1.2.11
 
 - Update plugin.json

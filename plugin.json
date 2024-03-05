@@ -1,14 +1,14 @@
 {
     "name": "GoogleTheme",
     "description": "A sublime Google Analytics theme for Matomo",
-    "version": "1.2.11",
+    "version": "1.2.12",
     "theme": true,
     "require": {
         "matomo": ">=4.0.0-b1,<5.0.0-b1"
     },
     "stylesheet": "stylesheets/theme.less",
     "javascript": "javascripts/theme.js",
-    "homepage": "https://openmost.io/softwares/google-theme",
+    "homepage": "https://openmost.io/products/matomo-google-theme/",
     "license": "GPL v3+",
     "keywords": [
         "Google Analytics", "Google", "Modern", "GA"
