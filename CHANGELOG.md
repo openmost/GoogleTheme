@@ -1,5 +1,9 @@
 ## Changelog
 
+### v5.0.11
+
+- Update documentation URL
+
 ### v5.0.10
 
 - Update plugin.json
