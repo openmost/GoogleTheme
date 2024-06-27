@@ -1,5 +1,9 @@
 ## Changelog
 
+### v5.0.12
+
+- update: marketplace cover
+
 ### v5.0.11
 
 - Update documentation URL
