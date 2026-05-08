@@ -1,0 +1,19 @@
+// Google-specific tokens that don't map to a core --theme-color-* variable.
+// All color usage in component files goes through --theme-color-* directly.
+:root {
+  --gt-widget-border-radius: 0.5rem;
+  --gt-color-sparkline-line: #058DC7;
+  --gt-color-sparkline-fill: #d6ecf6;
+}
+
+[data-theme-mode="dark"] {
+  --gt-color-sparkline-line: var(--theme-color-brand);
+  --gt-color-sparkline-fill: var(--theme-color-background-tinyContrast);
+}
+
+@media (prefers-color-scheme: dark) {
+  [data-theme-mode="auto"] {
+    --gt-color-sparkline-line: var(--theme-color-brand);
+    --gt-color-sparkline-fill: var(--theme-color-background-tinyContrast);
+  }
+}

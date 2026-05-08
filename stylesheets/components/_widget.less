@@ -14,7 +14,6 @@
     padding: 0 !important;
 
     .buttons {
-      background: @theme-color-background-base;
       top: 4px;
       right: 0;
       padding-left: 0;
@@ -37,10 +36,10 @@
   }
 
   .widgetContent {
-    background-color: #ffffff;
+    background-color: var(--theme-color-widget-background);
     box-shadow: none;
-    border: 1px solid #dadce0;
-    border-radius: @theme-widget-border-radius;
+    border: 1px solid var(--theme-color-widget-border);
+    border-radius: var(--gt-widget-border-radius);
 
     .widgetBody {
       padding-top: 12px;
@@ -48,21 +47,21 @@
 
     .card {
       border: none;
-      border-radius: @theme-widget-border-radius;
+      border-radius: var(--gt-widget-border-radius);
       overflow: hidden;
     }
 
     .dataTable {
-      border-radius: @theme-widget-border-radius;
+      border-radius: var(--gt-widget-border-radius);
 
       thead tr:first-child {
 
         th:first-child {
-          border-top-left-radius: 7px;
+          border-top-left-radius: ~"calc(var(--gt-widget-border-radius) - 1px)";
         }
 
         th:last-child {
-          border-top-right-radius: 7px;
+          border-top-right-radius: ~"calc(var(--gt-widget-border-radius) - 1px)";
         }
 
       }

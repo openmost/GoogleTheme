@@ -1,76 +1,88 @@
-## Changelog
+# Changelog
 
-### v5.0.12
+## 5.10.0
 
-- update: marketplace cover
+- Full repaint on Google's Material light and dark scales, with native support for Matomo's dark color scheme.
+- Reworked theme variable mapping: brand, surfaces, text, borders, focus rings, headers, menus, widgets, code blocks, and box shadows are now defined as `[light, dark]` pairs.
+- New layout layer (`stylesheets/layout/_root.less`, `stylesheets/layout/_main.less`) for root-level and page-level rules.
+- New `_alert.less` component for informational, success, warning, and error states.
+- Refined header, side menu, cards, widgets, search, sparkline, and visitor log components for visual consistency in both modes.
+- Switched typography to Google Sans (Product Sans) bundled locally — no external font requests.
+- Removed legacy assets: `javascripts/theme.js`, the old `_variables.less`, and unused component files (`_control.less`, `_main.less` under `components/`).
+- Bumped minimum required Matomo version to 5.10.0.
 
-### v5.0.11
+## 5.0.12
 
-- Update documentation URL
+- Updated marketplace cover image.
 
-### v5.0.10
+## 5.0.11
 
-- Update plugin.json
+- Updated documentation URL.
 
-### v5.0.9
+## 5.0.10
 
-- Update Logo
+- Updated `plugin.json` metadata.
 
-### v5.0.8
+## 5.0.9
 
-- Support Matomo 5.x
+- Updated theme logo.
 
-### v1.2.6
+## 5.0.8
 
-- Fix Font ligatures with Google font
+- Compatibility with Matomo 5.x.
 
-### v1.2.5
+## 1.2.6
 
-- Fix Font weight on mac
-- Fix KPI Widgets plugins padding
+- Fixed font ligatures with the Google font.
 
-### v1.2.4
+## 1.2.5
 
-- Fix tags confusion
+- Fixed font weight rendering on macOS.
+- Fixed KPI widget padding.
 
-### v1.2.3
+## 1.2.4
 
-- Fix Widget .dataTable content overflow
+- Fixed tag confusion in widget rendering.
 
-### v1.2.2
+## 1.2.3
 
-- Fix Widget content overflow
+- Fixed widget `.dataTable` content overflow.
 
-### v1.2.1
+## 1.2.2
 
-- Fix help icon in lateral menu
+- Fixed widget content overflow.
 
-### v1.2
+## 1.2.1
 
-- Change Font
-- Updating lateral menu UI
-- Updating cards UI
-- Updating widgets UI
+- Fixed help icon rendering in the lateral menu.
 
-### v1.1.0
+## 1.2.0
 
-- Support Matomo 4.x
-- Fix CSS padding for cards and tables
+- New typography.
+- Refreshed lateral menu UI.
+- Refreshed cards UI.
+- Refreshed widgets UI.
 
-### v1.0.5
+## 1.1.0
 
-- Updating screenshots labels
+- Compatibility with Matomo 4.x.
+- Fixed CSS padding for cards and tables.
 
-### v1.0.4
+## 1.0.5
 
-- Updating GitHub default repo
+- Updated screenshot labels.
 
-### v1.0.2
+## 1.0.4
 
-- Fix overflow hidden property on cards cause problems with dropdown
+- Updated default GitHub repository.
 
-### V1.0.0
+## 1.0.2
 
-- Write documentation, description and FAQ.
-- Change the style of the search bar (QuickAccess)
-- Change the style of the small buttons at the top of the dashboard.
+- Fixed `overflow: hidden` on cards causing dropdown clipping.
+
+## 1.0.0
+
+- Initial release.
+- Documentation, description, and FAQ.
+- Restyled QuickAccess search bar.
+- Restyled small dashboard top buttons.
