@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.10.1
+
+- Update README.md
+
 ## 5.10.0
 
 - Full repaint on Google's Material light and dark scales, with native support for Matomo's dark color scheme.
