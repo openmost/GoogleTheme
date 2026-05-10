@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.10.2
+
+- Fixed font paths to use relative URLs, enabling correct font loading on Matomo installations served from a subdirectory.
+- Added styling for `.menuDropdown` submenus in the side navigation.
+- Refined active menu state to preserve dropdown rendering.
+- Cleaned up legacy commented styles in the menu component.
+
 ## 5.10.1
 
 - Update README.md
