@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.1
+
+- Screenshots of the Matomo 6 interface.
+
 ## 6.0.0
 
 - Compatibility with Matomo 6.x (`>=6.0.0-b1,<7.0.0-b1`), requires PHP 8.1+ and MySQL 8.0+ (or MariaDB 10.6+).
