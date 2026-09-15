@@ -1,21 +1,22 @@
 {
     "name": "GoogleTheme",
-    "description": "A sublime Google Analytics theme for Matomo",
-    "version": "5.10.2",
+    "description": "A sublime Google Analytics theme for Matomo, in light and dark mode",
+    "version": "6.0.0",
     "theme": true,
     "require": {
-        "matomo": ">=5.10.0,<6.0.0-b1"
+        "php": ">=8.1.0",
+        "matomo": ">=6.0.0-b1,<7.0.0-b1"
     },
     "stylesheet": "stylesheets/theme.less",
-    "homepage": "https://openmost.com/products/matomo-google-theme/",
+    "homepage": "https:\/\/openmost.com\/matomo\/extensions\/google-theme",
     "license": "GPL v3+",
     "keywords": [
-        "Google Analytics", "Google", "Modern", "GA"
+        "Google Analytics", "Google", "Modern", "GA", "Material", "Dark Mode"
     ],
     "support": {
         "email": "ronan@openmost.com",
-        "issues": "https://github.com/openmost/GoogleTheme/issues",
-        "source": "https://github.com/openmost/GoogleTheme"
+        "issues": "https:\/\/github.com\/openmost\/GoogleTheme\/issues",
+        "source": "https:\/\/github.com\/openmost\/GoogleTheme"
     },
     "authors": [
         {

@@ -1,5 +1,17 @@
 # Changelog
 
+## 6.0.0
+
+- Compatibility with Matomo 6.x (`>=6.0.0-b1,<7.0.0-b1`), requires PHP 8.1+ and MySQL 8.0+ (or MariaDB 10.6+).
+- Palette completed with the colors added in Matomo 6, in light and dark mode: success, input placeholder, alternative border and overlay shadow (Material elevation).
+- Stylesheets use the Matomo 6 theme variables instead of the deprecated `widget-background`, `widget-border` and `border` ones.
+- Dashboard widgets follow the Matomo 6 report header: title above the card without the header padding, widget controls aligned with the title.
+- Tighter space between dashboard widgets (16px instead of 36px).
+- KPIWidgets plugin support: the KPI value keeps a 20px space under the widget top border.
+- Removed the empty config files.
+- Removed the unused Product Sans font files (black, light, thin and italic styles), the theme now ships the regular, medium and bold weights only (1.2 MB to 300 KB).
+- Plugin homepage on openmost.com.
+
 ## 5.10.2
 
 - Fixed font paths to use relative URLs, enabling correct font loading on Matomo installations served from a subdirectory.

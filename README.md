@@ -9,15 +9,16 @@ Google Theme is a purely visual theme that re-skins the Matomo interface with th
 ### Highlights
 
 - **Google Analytics-inspired design** — Material-style surfaces, the Google blue accent, and clean spacing across dashboards, widgets, and reports.
-- **Light and dark mode** — Both Matomo color schemes are mapped to Google's Material light and dark scales. Switch from your user settings; the theme adapts automatically.
-- **Google Sans typography** — The full Product Sans family is bundled with the theme, so no external font requests are made.
-- **Refined components** — Header, side menu, cards, widgets, alerts, sparklines, search, and the visitor log have been restyled for visual consistency.
+- **Light and dark mode** — Both Matomo color schemes are mapped to Google's Material light and dark scales. Each user picks the light or dark mode in their personal settings; the theme adapts automatically.
+- **Google Sans typography** — The Product Sans regular, medium and bold weights are bundled with the theme, so no external font requests are made.
+- **Refined components** — Header, side menu, cards, widgets, alerts, sparklines, search, and the visitor log have been restyled for visual consistency. Widgets of the KPIWidgets plugin are supported too.
 - **Pure CSS, zero behavior changes** — No JavaScript, no markup overrides. If you uninstall the theme, Matomo returns to its default appearance instantly.
 - **Built with LESS** — Uses Matomo's own theme variable system (`Theme.configureThemeVariables`) for forward compatibility.
 
 ### Requirements
 
-- Matomo **5.10.0** or later (compatible up to but not including Matomo 6.x)
+- Matomo **6** (Google Theme 6.x), PHP 8.1 or higher, MySQL 8.0+ or MariaDB 10.6+
+- For Matomo 5.10 or later, install Google Theme **5.10.x**
 
 ### Installation
 
@@ -45,7 +46,7 @@ Once activated, the theme applies to every user of the Matomo instance.
 
 ### Support
 
-- Marketplace page: <https://openmost.com/products/matomo-google-theme/>
+- Marketplace page: <https://openmost.com/matomo/extensions/google-theme>
 - Issues: <https://github.com/openmost/GoogleTheme/issues>
 - Contact: ronan@openmost.com
 

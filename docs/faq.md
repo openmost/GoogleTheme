@@ -13,7 +13,7 @@ You can also install manually by copying the `GoogleTheme` folder into the `plug
 
 ### Which Matomo versions are supported?
 
-Matomo **5.10.0** and later, up to but not including Matomo 6.x. The exact requirement is declared in `plugin.json` and enforced by Matomo at install time.
+Google Theme **6.x** supports Matomo 6. For Matomo 5.10 and later, use Google Theme 5.10.x. The exact requirement is declared in `plugin.json` and enforced by Matomo at install time.
 
 ### Does the theme apply to every user of my Matomo instance?
 
@@ -29,7 +29,7 @@ No. The theme is purely visual — it overrides CSS variables and a small set of
 
 ### Does the theme make external requests (e.g. for fonts)?
 
-No. The Product Sans font family is bundled with the theme under `fonts/` and served from your own Matomo instance. There are no requests to Google or any third party.
+No. The Product Sans regular, medium and bold weights are bundled with the theme under `fonts/` and served from your own Matomo instance. There are no requests to Google or any third party.
 
 ### Can I customize the colors or fork the theme?
 

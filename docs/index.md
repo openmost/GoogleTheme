@@ -43,7 +43,7 @@ Component-level overrides live in `stylesheets/components/`:
 - **Header** — top bar background, text color, alignment.
 - **Side menu** — item spacing, hover and active states tuned to Google's selection style.
 - **Cards** — page card surfaces and edges.
-- **Widgets** — dashboard widget backgrounds, borders, and titles.
+- **Widgets** — dashboard widget backgrounds, borders, and titles. The Matomo 6 report header is laid out above the card, aligned with it, with 16px between widgets. KPIWidgets plugin widgets keep a 20px space above their value.
 - **Alerts** — informational, success, warning, and error states.
 - **Buttons** — primary, secondary, and icon button styles.
 - **Search (QuickAccess)** — top search input.
@@ -59,7 +59,7 @@ Component-level overrides live in `stylesheets/components/`:
 - **Light surfaces** — `#ffffff`, `#f8f9fa`, `#f1f3f4`, `#e8eaed`.
 - **Dark surfaces** — `#202124`, `#292a2d`, `#3c4043`, `#17181b`.
 - **Text scales** — Google's Material text colors for both modes, including translucent variants in dark mode.
-- **Font** — `"Google Sans", Arial, Helvetica, sans-serif`. The Product Sans family ships with the theme under `fonts/`.
+- **Font** — `"Google Sans", Arial, Helvetica, sans-serif`. The Product Sans regular, medium and bold weights ship with the theme under `fonts/`.
 
 If you want to fork or customize the palette, those values are the place to start.
 

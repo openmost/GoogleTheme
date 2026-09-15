@@ -2,7 +2,7 @@
   background-color: transparent;
   box-shadow: none;
   border: none !important;
-  margin-bottom: 36px;
+  margin-bottom: 16px;
 
   &:hover {
     box-shadow: none;
@@ -13,32 +13,28 @@
     background-color: transparent;
     padding: 0 !important;
 
-    .buttons {
-      top: 4px;
-      right: 0;
-      padding-left: 0;
-
-      .button {
-        margin-top: 0;
-
-        &:first-child {
-          margin-right: 0;
-        }
-      }
+    // the title sits above the card, without the padding of the Matomo 6 report header
+    .reportHeader {
+      padding: 0 0 12px;
     }
 
-    .widgetName {
-      padding: 0 !important;
-      margin-bottom: 12px;
+    .reportHeader__title {
       font-weight: 500;
       font-size: 1.125rem;
+    }
+
+    // controls overlaid at the end of the title, fading into the page background
+    .reportHeader__widgetControls {
+      top: 0;
+      right: 0;
+      background: linear-gradient(to right, transparent, var(--theme-color-background-base) 45px);
     }
   }
 
   .widgetContent {
-    background-color: var(--theme-color-widget-background);
+    background-color: var(--theme-color-background-contrast);
     box-shadow: none;
-    border: 1px solid var(--theme-color-widget-border);
+    border: 1px solid var(--theme-color-border-alternative);
     border-radius: var(--gt-widget-border-radius);
 
     .widgetBody {
@@ -73,6 +69,7 @@
   }
 }
 
-.kpi-widgets {
-  padding-top: 30px;
+// KPIWidgets plugin: its value would touch the top border, the widget title being above the card
+.widget .widgetContent .kpiWidget {
+  padding-top: 20px;
 }

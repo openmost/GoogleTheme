@@ -1,6 +1,6 @@
 <?php
 /**
- * Piwik - free/libre analytics platform
+ * Matomo - free/libre analytics platform
  *
  * @link https://matomo.org
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
@@ -63,6 +63,7 @@ class GoogleTheme extends Plugin
         // Brand
         $vars->colorBrand              = [$brand, $brandLighter];
         $vars->colorBrandContrast      = ['#ffffff', '#202124'];
+        $vars->colorSuccess            = ['#1e8e3e', '#81c995'];
 
         // Focus
         $vars->colorFocusRing            = [$brand, $brandLighter];
@@ -76,6 +77,7 @@ class GoogleTheme extends Plugin
         $vars->colorTextLighter        = [$lightTextTertiary, $darkTextTertiary];
         $vars->colorTextOnDisabled     = [$lightTextDisabled, $darkTextDisabled];
         $vars->colorTextDisabled       = [$lightTextDisabled, $darkTextDisabled];
+        $vars->colorTextPlaceholder    = [$lightTextDisabled, $darkTextDisabled];
         $vars->colorTextInvert         = ['#ffffff', '#202124'];
         $vars->colorTextInvertContrast = ['#ffffff', '#000000'];
         $vars->colorTextInvertLight    = ['#dadce0', '#5f6368'];
@@ -117,6 +119,7 @@ class GoogleTheme extends Plugin
 
         // Borders
         $vars->colorBorder      = [$lightBorder, $darkBorder];
+        $vars->colorBorderAlternative = [$lightBorder, $darkBorder];
         $vars->colorBorderLight = [$lightBorderStrong, $darkBorderStrong];
 
         // Code blocks
@@ -125,6 +128,7 @@ class GoogleTheme extends Plugin
 
         // Box shadow
         $vars->colorBoxShadow = ['rgba(60, 64, 67, 0.15)', 'rgba(0, 0, 0, 0.4)'];
+        $vars->shadowOverlay  = ['0 1px 2px rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15)', '0 1px 3px rgba(0, 0, 0, 0.5), 0 4px 8px 3px rgba(0, 0, 0, 0.3)'];
 
         // Illustration filter (invert white pngs/svgs to look right on dark)
         $vars->filterOnIllustration = ['none', 'brightness(89%) invert(100%) hue-rotate(180deg)'];
