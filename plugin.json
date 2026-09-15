@@ -1,7 +1,7 @@
 {
     "name": "GoogleTheme",
     "description": "A sublime Google Analytics theme for Matomo, in light and dark mode",
-    "version": "6.0.0",
+    "version": "6.0.1",
     "theme": true,
     "require": {
         "php": ">=8.1.0",
