@@ -1,28 +1,33 @@
 {
     "name": "GoogleTheme",
-    "description": "A sublime Google Analytics theme for Matomo, in light and dark mode",
-    "version": "6.0.1",
+    "description": "A Google Analytics inspired theme for Matomo, in light and dark mode.",
+    "version": "6.0.2",
     "theme": true,
+    "stylesheet": "stylesheets/theme.less",
     "require": {
         "php": ">=8.1.0",
         "matomo": ">=6.0.0-b1,<7.0.0-b1"
-    },
-    "stylesheet": "stylesheets/theme.less",
-    "homepage": "https:\/\/openmost.com\/matomo\/extensions\/google-theme",
-    "license": "GPL v3+",
-    "keywords": [
-        "Google Analytics", "Google", "Modern", "GA", "Material", "Dark Mode"
-    ],
-    "support": {
-        "email": "ronan@openmost.com",
-        "issues": "https:\/\/github.com\/openmost\/GoogleTheme\/issues",
-        "source": "https:\/\/github.com\/openmost\/GoogleTheme"
     },
     "authors": [
         {
             "name": "Openmost",
             "email": "ronan@openmost.com",
-            "homepage": "https:\/\/openmost.com"
+            "homepage": "https://openmost.com"
         }
+    ],
+    "support": {
+        "email": "ronan@openmost.com",
+        "issues": "https://github.com/openmost/GoogleTheme/issues",
+        "source": "https://github.com/openmost/GoogleTheme"
+    },
+    "homepage": "https://openmost.com/matomo/extensions/google-theme",
+    "license": "GPL v3+",
+    "keywords": [
+        "google-analytics",
+        "google",
+        "modern",
+        "ga",
+        "material",
+        "dark-mode"
     ]
 }

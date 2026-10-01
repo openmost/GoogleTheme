@@ -17,7 +17,7 @@ Google Theme **6.x** supports Matomo 6. For Matomo 5.10 and later, use Google Th
 
 ### Does the theme apply to every user of my Matomo instance?
 
-Yes. Matomo themes are instance-wide: once activated, every user sees the new look. Individual users cannot opt out, but they can still toggle between Matomo's light and dark color schemes from their personal settings — the theme supports both.
+Yes. Matomo themes are instance-wide: once activated, every user sees the new look. Individual users cannot opt out, but they can still toggle between Matomo's light and dark color schemes from their personal settings, the theme supports both.
 
 ### Does Google Theme support dark mode?
 
@@ -25,7 +25,7 @@ Yes. Every color variable is mapped to both Matomo color schemes, so the interfa
 
 ### Will it break my Matomo installation or any plugins?
 
-No. The theme is purely visual — it overrides CSS variables and a small set of component styles via LESS. It does not modify HTML, JavaScript, or any reporting logic, so it should not conflict with other plugins. If you ever uninstall it, Matomo immediately falls back to the default theme.
+No. The theme is purely visual, it overrides CSS variables and a small set of component styles via LESS. It does not modify HTML, JavaScript, or any reporting logic, so it should not conflict with other plugins. If you ever uninstall it, Matomo immediately falls back to the default theme.
 
 ### Does the theme make external requests (e.g. for fonts)?
 
