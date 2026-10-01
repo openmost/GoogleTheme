@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.10.3
+
+- Plugin translated into 12 languages (Arabic, Chinese simplified and traditional, Dutch, English, French, German, Italian, Japanese, Polish, Portuguese, Spanish).
+- Plugin homepage moved to https://openmost.com/matomo/extensions/google-theme, Marketplace keywords and new screenshots in light and dark mode.
+- Shorter Marketplace description that fits the plugin cards, and campaign parameters on the Openmost links of the README.
+
 ## 5.10.2
 
 - Fixed font paths to use relative URLs, enabling correct font loading on Matomo installations served from a subdirectory.
@@ -18,7 +24,7 @@
 - New layout layer (`stylesheets/layout/_root.less`, `stylesheets/layout/_main.less`) for root-level and page-level rules.
 - New `_alert.less` component for informational, success, warning, and error states.
 - Refined header, side menu, cards, widgets, search, sparkline, and visitor log components for visual consistency in both modes.
-- Switched typography to Google Sans (Product Sans) bundled locally — no external font requests.
+- Switched typography to Google Sans (Product Sans) bundled locally, no external font requests.
 - Removed legacy assets: `javascripts/theme.js`, the old `_variables.less`, and unused component files (`_control.less`, `_main.less` under `components/`).
 - Bumped minimum required Matomo version to 5.10.0.
 
