@@ -5,6 +5,7 @@
 - Plugin translated into 12 languages (Arabic, Chinese simplified and traditional, Dutch, English, French, German, Italian, Japanese, Polish, Portuguese, Spanish).
 - Plugin homepage moved to https://openmost.com/matomo/extensions/google-theme, Marketplace keywords and new screenshots in light and dark mode.
 - Shorter Marketplace description that fits the plugin cards, and campaign parameters on the Openmost links of the README.
+- Smaller package: only the three Product Sans weights used by the theme (Regular, Medium, Bold) are shipped.
 
 ## 5.10.2
 
