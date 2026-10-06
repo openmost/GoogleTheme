@@ -6,6 +6,7 @@
 - Plugin homepage moved to https://openmost.com/matomo/extensions/google-theme, Marketplace keywords and new screenshots in light and dark mode.
 - Shorter Marketplace description that fits the plugin cards, and campaign parameters on the Openmost links of the README.
 - Smaller package: only the three Product Sans weights used by the theme (Regular, Medium, Bold) are shipped.
+- README: the plugin description now shows in the Description tab of the Matomo Marketplace.
 
 ## 5.10.2
 

@@ -1,8 +1,10 @@
 # Google Theme
 
+## Description
+
 A Google Analytics inspired theme for Matomo, in light and dark mode.
 
-## Features
+### Features
 
 - **Google Analytics look and feel**: Material surfaces, the Google blue accent and clean spacing across dashboards, widgets and reports, familiar to teams coming from Google Analytics.
 - **Light and dark mode**: both Matomo color schemes are mapped to Google's Material light and dark scales. Each user keeps choosing Light, Dark or Match browser in their personal settings.
@@ -11,12 +13,12 @@ A Google Analytics inspired theme for Matomo, in light and dark mode.
 - **Native theme API**: colors are set through Matomo's `Theme.configureThemeVariables` event as `[light, dark]` pairs, so core and third party plugins pick them up.
 - **Purely visual**: no JavaScript and no markup change. Deactivate the theme and Matomo returns to its default look.
 
-## Requirements
+### Requirements
 
 - Matomo 5.10.0 or later, up to Matomo 6 excluded (`>=5.10.0,<6.0.0-b1`)
 - On Matomo 6, install Google Theme 6.x instead.
 
-## Installation / Configuration
+### Installation / Configuration
 
 1. Go to *Administration > Platform > Marketplace*, filter by **Themes** and search for "Google Theme".
 2. Click **Install**, then **Activate**. A theme applies to the whole Matomo instance.
@@ -24,7 +26,7 @@ A Google Analytics inspired theme for Matomo, in light and dark mode.
 
 There are no settings. To customize the colors, override the `--theme-color-*` CSS variables from your own plugin, or fork the theme. See [docs/index.md](docs/index.md).
 
-## Need help with Matomo?
+### Need help with Matomo?
 
 Openmost is an official Matomo Implementation Partner. We also build [custom Matomo themes](https://openmost.com/matomo/services/custom-theme?utm_source=matomo_marketplace&utm_medium=referral&utm_campaign=services&utm_content=googletheme) in your own brand colours and fonts, on the official theme API, in light and dark mode.
 
